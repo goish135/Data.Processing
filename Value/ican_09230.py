@@ -35,7 +35,8 @@ for k in range(len(data)):
 			
 count_XML = 0
 xxml = 0
-fuck = 0
+#fuck = 0
+fine = 0
 for i_1 in glob.iglob("./parse/*/*/*/*.XML"):
 
 	print(i_1)
@@ -52,8 +53,9 @@ for i_1 in glob.iglob("./parse/*/*/*/*.XML"):
 				matchdata[j.attrib['routeid']][datatime] = j.attrib['value']
 			else:
 				matchdata[j.attrib['routeid']] = {datatime:j.attrib['value']}
-				print('fuck')
-				fuck = fuck + 1
+				#print('fuck')
+				print('fine')
+				fine = fine + 1
 
 	except:
 		print('file error')
@@ -64,7 +66,7 @@ for i_1 in glob.iglob("./parse/*/*/*/*.XML"):
 print("Total:",count_XML)
 print("total:",xxml)
 print("Final:",count_XML-xxml)
-print("fuck:", fuck)
+print("fine:", fine)
 
 fn = 'train_value.json'
 with open(fn,'w',encoding='utf8') as f:
