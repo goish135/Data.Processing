@@ -1,0 +1,6 @@
+APScheduler
+requests
+beautifulsoup4
+pydrive
+
+
