@@ -14,7 +14,9 @@ clock: python clock.py
 告訴Heroku該 下載那些Python套件
 
 # ref 參考連結 : https://pythonhosted.org/PyDrive/
- 
+
+# better : https://developers.google.com/drive/api/v3/folder
+建立資料夾，同一上傳至同一資料夾，使得資料好整理。
 
 
  
