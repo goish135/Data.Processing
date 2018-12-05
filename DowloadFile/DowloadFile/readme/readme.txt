@@ -1,18 +1,19 @@
 # main
-1. auto_dowload_upload.py: ¦Û°Ê¤U¸ü©M¤W¶Ç¦Ü¶³ºİ³Æ¥÷
+1. auto_dowload_upload.py: è‡ªå‹•ä¸‹è¼‰å’Œä¸Šå‚³è‡³é›²ç«¯å‚™ä»½
 
 # Google API 
-2. client_secrets.json: ¾ÌÃÒ
-3. settings.yaml: ¦Û°ÊÅçÃÒ
+2. client_secrets.json: æ†‘è­‰
+3. settings.yaml: è‡ªå‹•é©—è­‰
 
-# ³¡¸pµ{¦¡¦Üheroku
+# éƒ¨ç½²ç¨‹å¼è‡³heroku
 4. clock.py 
-¨C¤­¤ÀÄÁ°õ¦æauto_dowload_upload.py
-5. Procfile: ±Ò°Ê©w®Éµ{¦¡
+æ¯äº”åˆ†é˜åŸ·è¡Œauto_dowload_upload.py
+5. Procfile: å•Ÿå‹•å®šæ™‚ç¨‹å¼
 clock: python clock.py
 6. requirement.txt
-§i¶DHeroku¸Ó ¤U¸ü¨º¨ÇPython®M¥ó
+å‘Šè¨´Herokuè©² ä¸‹è¼‰é‚£äº›Pythonå¥—ä»¶
 
+# ref åƒè€ƒé€£çµ : https://pythonhosted.org/PyDrive/
  
 
 
